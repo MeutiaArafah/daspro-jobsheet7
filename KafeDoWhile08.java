@@ -20,9 +20,9 @@ public class KafeDoWhile08 {
             }
             System.out.print("Jumlah kopi: ");
             kopi = sc.nextInt();
-            System.out.println("Jumlah teh: ");
+            System.out.print("Jumlah teh: ");
             teh = sc.nextInt();
-            System.out.println("Jumlah roti: ");
+            System.out.print("Jumlah roti: ");
             roti = sc.nextInt();
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
             System.out.println("Total yang harus dibayar: Rp " + totalHarga);
